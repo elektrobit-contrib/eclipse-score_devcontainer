@@ -38,3 +38,8 @@ repos:
     rev: a1bb792acda6fd0724936b4ebbdbc8eceb9c0459 # v6.2.0
     hooks:
       - id: reuse-lint-file
+
+  - repo: ./.git
+    rev: HEAD
+    hooks:
+      - id: reuse-annotate
