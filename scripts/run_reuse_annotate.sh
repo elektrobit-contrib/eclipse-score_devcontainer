@@ -13,6 +13,8 @@
 # SPDX-License-Identifier: Apache-2.0
 # *******************************************************************************
 
+# test
+
 set -euxo pipefail
 
 SCRIPT_PATH=$(readlink -f "$0")
