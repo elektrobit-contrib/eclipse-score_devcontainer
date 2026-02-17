@@ -39,10 +39,10 @@ repos:
     hooks:
       - id: reuse-lint-file
 
-  # - repo: local
-  #   hooks:
-  #     - id: reuse annotate
-  #       name: Check and fix copyright headers with reuse annotate
-  #       entry: ./scripts/run_reuse_annotate.sh
-  #       language: unsupported_script
-  #       pass_filenames: false
+  - repo: local
+    hooks:
+      - id: reuse annotate
+        name: Check and fix copyright headers with reuse annotate
+        entry: ./scripts/run_reuse_annotate.sh
+        language: unsupported_script
+        pass_filenames: false
